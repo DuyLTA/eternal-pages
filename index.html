@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vintage Book Reviews</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <header>
+    <h1>Book Reviews</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="danhgia.html">Đánh giá</a></li>
+        <li><a href="gioithieu.html">Giới thiệu</a></li>
+        <li><a href="lienhe.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Container for 10 book reviews arranged in two rows (5 per row) -->
+    <section class="review-list">
+      <!-- Book 1 -->
+      <article class="review" 
+               data-title="The Great Gatsby" 
+               data-author="F. Scott Fitzgerald" 
+               data-review="Là một miêu tả kinh điển về những năm hai mươi đang bùng nổ, cuốn tiểu thuyết này đi sâu vào các chủ đề về sự giàu có, tình yêu và Giấc mơ Mỹ khó nắm bắt." 
+               data-image="41733839.jpg">
+        <img class="book-cover" src="41733839.jpg" alt="The Great Gatsby" />
+        <h2>The Great Gatsby</h2>
+        <p class="author">by F. Scott Fitzgerald</p>
+      </article>
+
+      <!-- Book 2 -->
+      <article class="review" 
+               data-title="To Kill a Mockingbird" 
+               data-author="Harper Lee" 
+               data-review="Một cuốn tiểu thuyết vượt thời gian kể về hành trình tìm hiểu đạo đức, công lý và sự mất đi sự trong trắng của một cô gái trẻ." 
+               data-image="book-cover-To-Kill-a-Mockingbird-many-1961.webp">
+        <img class="book-cover" src="book-cover-To-Kill-a-Mockingbird-many-1961.webp" alt="To Kill a Mockingbird" />
+        <h2>To Kill a Mockingbird</h2>
+        <p class="author">by Harper Lee</p>
+      </article>
+
+      <!-- Book 3 -->
+      <article class="review" 
+               data-title="1984" 
+               data-author="George Orwell" 
+               data-review="Một cuốn tiểu thuyết đen tối đi sâu vào các chủ đề giám sát, kiểm soát của chính phủ và chủ nghĩa cá nhân." 
+               data-image="71rpa1-kyvL.jpg">
+        <img class="book-cover" src="71rpa1-kyvL.jpg" alt="1984" />
+        <h2>1984</h2>
+        <p class="author">by George Orwell</p>
+      </article>
+
+      <!-- Book 4 -->
+      <article class="review" 
+               data-title="Pride and Prejudice" 
+               data-author="Jane Austen" 
+               data-review="Một câu chuyện tình lãng mạn vượt thời gian khám phá cách cư xử, đạo đức và hôn nhân ở nước Anh thế kỷ 19." 
+               data-image="images.jpg">
+        <img class="book-cover" src="images.jpg" alt="Pride and Prejudice" />
+        <h2>Pride and Prejudice</h2>
+        <p class="author">by Jane Austen</p>
+      </article>
+
+      <!-- Book 5 -->
+      <article class="review" 
+               data-title="Moby Dick" 
+               data-author="Herman Melville" 
+               data-review="Một câu chuyện sử thi về nỗi ám ảnh và sự trả thù, sau cuộc truy đuổi không ngừng nghỉ của thuyền trưởng Ahab đối với con cá voi trắng lớn." 
+               data-image="Moby_Dick-Cá_voi_trắng_(sách).jpg">
+        <img class="book-cover" src="Moby_Dick-Cá_voi_trắng_(sách).jpg" alt="Moby Dick" />
+        <h2>Moby Dick</h2>
+        <p class="author">by Herman Melville</p>
+      </article>
+
+      <!-- Book 6 -->
+      <article class="review" 
+               data-title="The Catcher in the Rye" 
+               data-author="J.D. Salinger" 
+               data-review="Một câu chuyện về sự xa lánh và đánh mất sự hồn nhiên của tuổi thanh niên do Holden Caulfield trải qua." 
+               data-image="8125BDk3l9L.jpg">
+        <img class="book-cover" src="8125BDk3l9L.jpg" alt="The Catcher in the Rye" />
+        <h2>The Catcher in the Rye</h2>
+        <p class="author">by J.D. Salinger</p>
+      </article>
+
+      <!-- Book 7 -->
+      <article class="review" 
+               data-title="Brave New World" 
+               data-author="Aldous Huxley" 
+               data-review="Một cuốn tiểu thuyết tương lai khám phá những khía cạnh phi nhân tính của tiến bộ công nghệ và kỹ thuật xã hội." 
+               data-image="BraveNewWorld_FirstEdition.jpg">
+        <img class="book-cover" src="BraveNewWorld_FirstEdition.jpg" alt="Brave New World" />
+        <h2>Brave New World</h2>
+        <p class="author">by Aldous Huxley</p>
+      </article>
+
+      <!-- Book 8 -->
+      <article class="review" 
+               data-title="Fahrenheit 451" 
+               data-author="Ray Bradbury" 
+               data-review="Một thế giới viễn tưởng rùng rợn, nơi sách bị đặt ngoài vòng pháp luật và lính cứu hỏa đốt bất kỳ thứ gì được tìm thấy." 
+               data-image="61zc4fPQbIL._AC_UF1000,1000_QL80_.jpg">
+        <img class="book-cover" src="61zc4fPQbIL._AC_UF1000,1000_QL80_.jpg" alt="Fahrenheit 451" />
+        <h2>Fahrenheit 451</h2>
+        <p class="author">by Ray Bradbury</p>
+      </article>
+
+      <!-- Book 9 -->
+      <article class="review" 
+               data-title="The Lord of the Rings" 
+               data-author="J.R.R. Tolkien" 
+               data-review="Một câu chuyện giàu tính giả tưởng hoành tráng ghi lại cuộc chiến giữa thiện và ác ở Trung Địa." 
+               data-image="images (1).jpg">
+        <img class="book-cover" src="images (1).jpg" alt="The Lord of the Rings" />
+        <h2>The Lord of the Rings</h2>
+        <p class="author">by J.R.R. Tolkien</p>
+      </article>
+
+      <!-- Book 10 -->
+      <article class="review" 
+               data-title="Animal Farm" 
+               data-author="George Orwell" 
+               data-review="Một câu chuyện ngụ ngôn châm biếm về sự trỗi dậy của chủ nghĩa toàn trị, được miêu tả thông qua một trang trại nuôi động vật nổi loạn." 
+               data-image="91Lbhwt5RzL._AC_UF1000,1000_QL80_.jpg">
+        <img class="book-cover" src="91Lbhwt5RzL._AC_UF1000,1000_QL80_.jpg" alt="Animal Farm" />
+        <h2>Animal Farm</h2>
+        <p class="author">by George Orwell</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Modal Structure -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modal-image" src="" alt="" />
+      <h2 id="modal-title"></h2>
+      <p id="modal-author"></p>
+      <p id="modal-review"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Vintage Book Reviews. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    // Get modal elements
+    const modal = document.getElementById('modal');
+    const modalTitle = document.getElementById('modal-title');
+    const modalAuthor = document.getElementById('modal-author');
+    const modalReview = document.getElementById('modal-review');
+    const modalImage = document.getElementById('modal-image');
+    const closeBtn = document.querySelector('.close');
+
+    // Attach event listeners to each book review article
+    document.querySelectorAll('.review').forEach(review => {
+      review.addEventListener('click', () => {
+        // Get data from the clicked review element
+        const title = review.getAttribute('data-title');
+        const author = review.getAttribute('data-author');
+        const reviewText = review.getAttribute('data-review');
+        const imageSrc = review.getAttribute('data-image');
+
+        // Set the modal content
+        modalTitle.textContent = title;
+        modalAuthor.textContent = `by ${author}`;
+        modalReview.textContent = reviewText;
+        modalImage.src = imageSrc;
+        modalImage.alt = title;
+
+        // Show the modal
+        modal.style.display = 'block';
+      });
+    });
+
+    // Close modal when clicking the close button
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+
+    // Close modal when clicking outside the modal content
+    window.addEventListener('click', (event) => {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>
